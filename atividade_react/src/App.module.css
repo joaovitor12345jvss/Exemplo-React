@@ -1,0 +1,45 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #0099ff;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 32px;
+  color: #0099ff;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.inputBusca {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+}
+
+.inputBusca:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.contador {
+  font-size: 14px;
+  color: #0099ff;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.mensagemVazia {
+  color: #0099ff;
+  font-style: italic;
+  margin-top: 20px;
+}
